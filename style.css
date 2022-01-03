@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.my-name {
+    background-color: rgb(51, 49, 49);
+}
+
+section {
+    display: flex;
+}
+
+.top {
+    width: 50%;
+
+}
+
+.top img {
+    width: 70%;
+}
+
+.hireMeButton {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(tomato, orangered);
+    color: white;
+    border-radius: 5px;
+}
+
+.hireMeButton:hover {
+    background-image: linear-gradient(orangered, tomato);
+}
+
+.topBanner {
+    background-image: url(images/topBanner.jpg);
+    background-repeat: no-repeat;
+
+}
