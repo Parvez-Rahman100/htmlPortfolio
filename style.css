@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto Slab', serif;
     padding: 20px;
     margin: 0;
-    background-image: linear-gradient(black, gray);
+    background-image: linear-gradient(gray, black);
     /* background-image: url(images/backgroundImage.png); */
 }
 
@@ -49,10 +49,12 @@ h3 {
     padding: 10px 40px;
     border-radius: 10px;
     font-weight: 700;
+
 }
 
 .btn:hover {
     background-image: linear-gradient(orangered, tomato);
+    transition:
 }
 
 .second-pic {
