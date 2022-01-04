@@ -4,7 +4,8 @@ body {
     font-family: 'Roboto Slab', serif;
     padding: 20px;
     margin: 0;
-    background-image: url(images/backgroundImage.png);
+    background-image: linear-gradient(black, gray);
+    /* background-image: url(images/backgroundImage.png); */
 }
 
 h1 {
